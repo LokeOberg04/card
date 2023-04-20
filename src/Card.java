@@ -53,6 +53,7 @@ public class Card {
     public String toString() {
         return "Card{" +
                 "name='" + name + '\'' +
+                ", speed=" + speed +
                 ", health=" + health +
                 ", attack=" + attack +
                 ", armor=" + armor +
