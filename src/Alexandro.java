@@ -1,4 +1,4 @@
-public class Alexandro extends Card {
+public class Alexandro extends Class {
 
     public Alexandro(String name, int health, int attack, int armor, int speed) {
         super(name, health, attack, armor, speed);

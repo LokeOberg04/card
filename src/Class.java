@@ -1,4 +1,4 @@
-public class Card {
+public class Class {
     String name;
 
     int speed;
@@ -32,7 +32,7 @@ public class Card {
 
 
 
-    public void attack(Card enemy) {
+    public void attack(Class enemy) {
         if (this.getHealth()>0) {
             if (this.getAttack() > enemy.getArmor()) {
                 int dmg = this.getAttack() - enemy.getArmor();
@@ -60,7 +60,7 @@ public class Card {
                 '}';
     }
 
-    public Card(String name, int health, int attack, int armor, int speed) {
+    public Class(String name, int health, int attack, int armor, int speed) {
         this.name = name;
         this.health = health;
         this.attack = attack;
